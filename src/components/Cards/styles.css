@@ -1,0 +1,15 @@
+.main{
+    max-height: 500px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main > div {
+    flex: 0 40%;
+  }
+  
+  .main h1{
+    text-align: center;
+    margin-top: 40%;
+  }
