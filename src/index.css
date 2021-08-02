@@ -20,19 +20,18 @@ body {
   border-radius: 5px;
 }
 
-.leftdiv{
+.emptymain {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftdiv {
   width: 70%;
 }
 
-.rightdiv{
+.rightdiv {
   width: 30%;
   border-left: 1px solid steelblue;
 }
-
-
-
-
-
-
-
-

@@ -1,16 +1,16 @@
-.card { 
-    width: 100%;
-    background: #f4f4f4;
-    margin-bottom: 5px;
-    margin-left: 5%;
-    margin-top: 5px;
-    padding: 10px 20px; 
-    cursor: pointer;
-    height: 100px;
-  }
-  
-  .card h3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.card {
+  width: 100%;
+  background: #f4f4f4;
+  margin-bottom: 5px;
+  margin-left: 5%;
+  margin-top: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 100px;
+}
+
+.card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

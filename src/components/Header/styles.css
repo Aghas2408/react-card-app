@@ -1,9 +1,8 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-height: 20%;
-    border-bottom: 1px solid steelblue;
-    padding-left: 5%;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 20%;
+  border-bottom: 1px solid steelblue;
+  padding-left: 5%;
+}
