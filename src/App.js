@@ -11,8 +11,8 @@ const App = () => {
   const deleteCard = (card) => {
     var array = [...cards];
     var index = array.indexOf(card);
-    if (index == -1) {
-      throw new Error('Indxes not fount');
+    if (index === -1) {
+      return;
     }
     array.splice(index, 1);
     setCards(array);
@@ -29,8 +29,8 @@ const App = () => {
 
   //Sort Cards
   const sortCard = () => {
-    const newArr = [...cards]
-    const sorted = newArr.sort((a, b) =>  b.number - a.number);
+    const newArr = [...cards];
+    const sorted = newArr.sort((a, b) => b.number - a.number);
     setCards(sorted);
   };
 
