@@ -1,10 +1,20 @@
-import './styles.css';
+import styled from 'styled-components';
+
+const SomeInfo = styled.div`
+  border-top: 1px solid steelblue;
+  display: flex;
+  justify-content: center;
+  max-height: 20%;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+`;
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <SomeInfo className='footer'>
       <h2>Created By aseyrany</h2>
-    </div>
+    </SomeInfo>
   );
 };
 

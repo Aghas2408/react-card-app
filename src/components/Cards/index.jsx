@@ -1,13 +1,27 @@
 import Card from '../Card';
-import './styles.css';
+import styled from 'styled-components';
+
+const List = styled.div`
+  max-height: 500px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    flex: 0 40%;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 40%;
+  }
+`;
 
 const Cards = ({ cards, onDelete }) => {
   return (
-    <div className='main'>
+    <List>
       {cards.map((card) => (
         <Card card={card} onDelete={onDelete} />
       ))}
-    </div>
+    </List>
   );
 };
 
